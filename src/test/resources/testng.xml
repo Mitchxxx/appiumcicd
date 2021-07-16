@@ -17,7 +17,7 @@
     <parameter name = "systemPort" value= "10001" />
     <parameter name = "chromeDriverPort" value= "11001" />
     <classes>
-      <class name="com.qa.runners.MySamsungS9TestNGRunnerTest"/>
+    <!--  <class name="com.qa.runners.MySamsungS9TestNGRunnerTest"/> -->
     </classes>
   </test>
 </suite> <!-- Suite -->
