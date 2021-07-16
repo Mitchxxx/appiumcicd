@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-16T15:56:45 BST" name="Suite" finished-at="2021-07-16T15:58:23 BST" duration-ms="98600">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunnerBase.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyNexus5XTestNGRunnerTest@710f4dc7]" name="scenario" class="com.qa.runners.RunnerBase"/>
+        <method signature="RunnerBase.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MySamsungS9TestNGRunnerTest@63475ace]" name="scenario" class="com.qa.runners.RunnerBase"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-07-16T15:56:45 BST" name="Nexus 5X" finished-at="2021-07-16T15:58:08 BST" duration-ms="82963">
+      <class name="com.qa.runners.MyNexus5XTestNGRunnerTest">
+        <test-method is-config="true" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.runners.MyNexus5XTestNGRunnerTest@710f4dc7]" started-at="2021-07-16T15:56:45 BST" name="setUpClass" finished-at="2021-07-16T15:56:53 BST" duration-ms="8237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nexus 5X API 30]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyNexus5XTestNGRunnerTest@710f4dc7]" started-at="2021-07-16T15:56:53 BST" name="scenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-16T15:56:58 BST" duration-ms="5197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with Invalid user name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyNexus5XTestNGRunnerTest@710f4dc7]" started-at="2021-07-16T15:56:58 BST" name="scenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-16T15:57:02 BST" duration-ms="3747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with Invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyNexus5XTestNGRunnerTest@710f4dc7]" started-at="2021-07-16T15:57:02 BST" name="scenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-16T15:57:07 BST" duration-ms="5387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qa.runners.MyNexus5XTestNGRunnerTest@710f4dc7]" started-at="2021-07-16T15:57:07 BST" name="tearDownClass" finished-at="2021-07-16T15:58:08 BST" duration-ms="60365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.runners.MyNexus5XTestNGRunnerTest -->
+    </test> <!-- Nexus 5X -->
+    <test started-at="2021-07-16T15:56:45 BST" name="Samsung S9" finished-at="2021-07-16T15:58:23 BST" duration-ms="98600">
+      <class name="com.qa.runners.MySamsungS9TestNGRunnerTest">
+        <test-method is-config="true" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.runners.MySamsungS9TestNGRunnerTest@63475ace]" started-at="2021-07-16T15:56:45 BST" name="setUpClass" finished-at="2021-07-16T15:56:56 BST" duration-ms="11030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[280b09ac111c7ece]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[280b09ac111c7ece]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10001]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MySamsungS9TestNGRunnerTest@63475ace]" started-at="2021-07-16T15:56:56 BST" name="scenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-16T15:57:12 BST" duration-ms="16793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with Invalid user name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MySamsungS9TestNGRunnerTest@63475ace]" started-at="2021-07-16T15:57:12 BST" name="scenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-16T15:57:17 BST" duration-ms="4653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with Invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MySamsungS9TestNGRunnerTest@63475ace]" started-at="2021-07-16T15:57:17 BST" name="scenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-16T15:57:23 BST" duration-ms="5646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qa.runners.MySamsungS9TestNGRunnerTest@63475ace]" started-at="2021-07-16T15:57:23 BST" name="tearDownClass" finished-at="2021-07-16T15:58:23 BST" duration-ms="60462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.runners.MySamsungS9TestNGRunnerTest -->
+    </test> <!-- Samsung S9 -->
+  </suite> <!-- Suite -->
+</testng-results>

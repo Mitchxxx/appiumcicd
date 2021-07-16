@@ -1,0 +1,23 @@
+[INFO ] 2021-07-12 13:22:37.216 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-12 13:22:38.646 ServerManager:32 - Appium server started
+[INFO ] 2021-07-12 13:22:38.665 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-12 13:22:38.682 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-12 13:22:38.683 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-12 13:22:38.698 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberFramework/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-12 13:22:48.504 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-12 13:24:39.255 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-12 13:24:40.670 ServerManager:32 - Appium server started
+[INFO ] 2021-07-12 13:24:40.699 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-12 13:24:40.716 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-12 13:24:40.718 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-12 13:24:40.732 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberFramework/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-12 13:24:47.912 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-12 13:28:05.250 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-12 13:28:06.010 ServerManager:32 - Appium server started
+[INFO ] 2021-07-12 13:28:06.029 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-12 13:28:06.043 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-12 13:28:06.044 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-12 13:28:06.060 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberFramework/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-12 13:28:12.699 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-12 13:28:19.323 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Validate Product info on Products page.mp4
+[INFO ] 2021-07-12 13:28:31.393 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Validate Product info on Products page.mp4

@@ -1,0 +1,434 @@
+2021-07-16 14:04:22:240 [Appium] Welcome to Appium v1.21.0
+2021-07-16 14:04:22:241 [Appium] Non-default server args:
+2021-07-16 14:04:22:241 [Appium]   port: 30142
+2021-07-16 14:04:22:241 [Appium]   sessionOverride: true
+2021-07-16 14:04:22:242 [Appium]   logFile: /Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/Android_Samsung S9/Server.log
+2021-07-16 14:04:22:259 [Appium] Appium REST http interface listener started on 0.0.0.0:30142
+2021-07-16 14:04:22:320 [HTTP] --> GET /wd/hub/status
+2021-07-16 14:04:22:320 [HTTP] {}
+2021-07-16 14:04:22:322 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-07-16 14:04:22:322 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.21.0"}}
+2021-07-16 14:04:22:326 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2021-07-16 14:04:22:326 [HTTP] 
+2021-07-16 14:04:22:331 [HTTP] --> GET /wd/hub/status
+2021-07-16 14:04:22:331 [HTTP] {}
+2021-07-16 14:04:22:331 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-07-16 14:04:22:332 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.21.0"}}
+2021-07-16 14:04:22:332 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2021-07-16 14:04:22:332 [HTTP] 
+2021-07-16 14:04:22:823 [HTTP] Request idempotency key: 3d9a0745-cd6d-40d4-8a08-098639f5c9ef
+2021-07-16 14:04:22:832 [HTTP] --> POST /wd/hub/session
+2021-07-16 14:04:22:832 [HTTP] {"desiredCapabilities":{"app":"/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"uiautomator2","chromeDriverPort":"11002","platformName":"Android","udId":"emulator-5554","deviceName":"Samsung S9","systemPort":"10002"},"capabilities":{"firstMatch":[{"appium:app":"/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"uiautomator2","chromeDriverPort":"11002","appium:deviceName":"Samsung S9","platformName":"android","appium:systemPort":"10002","udId":"emulator-5554"}]}}
+2021-07-16 14:04:22:832 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"uiautomator2","chromeDriverPort":"11002","platformName":"Android","udId":"emulator-5554","deviceName":"Samsung S9","systemPort":"10002"},null,{"firstMatch":[{"appium:app":"/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"uiautomator2","chromeDriverPort":"11002","appium:deviceName":"Samsung S9","platformName":"android","appium:systemPort":"10002","udId":"emulator-5554"}]}]
+2021-07-16 14:04:22:833 [BaseDriver] Event 'newSessionRequested' logged at 1626444262833 (15:04:22 GMT+0100 (British Summer Time))
+2021-07-16 14:04:22:836 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2021-07-16 14:04:22:836 [BaseDriver]   chromeDriverPort
+2021-07-16 14:04:22:836 [BaseDriver]   udId
+2021-07-16 14:04:22:967 [Appium] Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+2021-07-16 14:04:22:967 [Appium] There are no active sessions for cleanup
+2021-07-16 14:04:22:969 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-07-16 14:04:22:969 [BaseDriver] Creating session with W3C capabilities: {
+2021-07-16 14:04:22:970 [BaseDriver]   "alwaysMatch": {
+2021-07-16 14:04:22:970 [BaseDriver]     "appium:chromeDriverPort": "11002",
+2021-07-16 14:04:22:970 [BaseDriver]     "platformName": "android",
+2021-07-16 14:04:22:970 [BaseDriver]     "appium:udId": "emulator-5554",
+2021-07-16 14:04:22:970 [BaseDriver]     "appium:app": "/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk",
+2021-07-16 14:04:22:970 [BaseDriver]     "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+2021-07-16 14:04:22:970 [BaseDriver]     "appium:appPackage": "com.swaglabsmobileapp",
+2021-07-16 14:04:22:970 [BaseDriver]     "appium:automationName": "uiautomator2",
+2021-07-16 14:04:22:970 [BaseDriver]     "appium:deviceName": "Samsung S9",
+2021-07-16 14:04:22:971 [BaseDriver]     "appium:systemPort": "10002"
+2021-07-16 14:04:22:971 [BaseDriver]   },
+2021-07-16 14:04:22:971 [BaseDriver]   "firstMatch": [
+2021-07-16 14:04:22:971 [BaseDriver]     {}
+2021-07-16 14:04:22:971 [BaseDriver]   ]
+2021-07-16 14:04:22:971 [BaseDriver] }
+2021-07-16 14:04:22:973 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-07-16 14:04:22:973 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-07-16 14:04:22:975 [BaseDriver] Capability 'systemPort' changed from string ('10002') to integer (10002). This may cause unexpected behavior
+2021-07-16 14:04:22:975 [BaseDriver] Capability 'chromeDriverPort' changed from string ('11002') to integer (11002). This may cause unexpected behavior
+2021-07-16 14:04:22:977 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+2021-07-16 14:04:22:977 [BaseDriver]   udId
+2021-07-16 14:04:22:978 [BaseDriver] Session created with session id: 442680f7-1fd7-46ed-9057-9a8785515f4e
+2021-07-16 14:04:22:980 [BaseDriver] Using local app '/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk'
+2021-07-16 14:04:22:980 [UiAutomator2] Checking whether app is actually present
+2021-07-16 14:04:22:986 [ADB] Found 2 'build-tools' folders under '/Users/mitchxxx1/Library/Android/sdk' (newest first):
+2021-07-16 14:04:22:986 [ADB]     /Users/mitchxxx1/Library/Android/sdk/build-tools/31.0.0-rc5
+2021-07-16 14:04:22:986 [ADB]     /Users/mitchxxx1/Library/Android/sdk/build-tools/30.0.3
+2021-07-16 14:04:22:987 [ADB] Using 'adb' from '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb'
+2021-07-16 14:04:22:987 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2021-07-16 14:04:22:999 [AndroidDriver] Retrieving device list
+2021-07-16 14:04:22:999 [ADB] Trying to find a connected android device
+2021-07-16 14:04:23:000 [ADB] Getting connected devices
+2021-07-16 14:04:23:008 [ADB] Connected devices: [{"udid":"280b09ac111c7ece","state":"device"},{"udid":"emulator-5554","state":"device"}]
+2021-07-16 14:04:23:009 [AndroidDriver] Using device: 280b09ac111c7ece
+2021-07-16 14:04:23:010 [ADB] Using 'adb' from '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb'
+2021-07-16 14:04:23:010 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2021-07-16 14:04:23:017 [ADB] Setting device id to 280b09ac111c7ece
+2021-07-16 14:04:23:018 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell getprop ro.build.version.sdk'
+2021-07-16 14:04:23:059 [ADB] Current device property 'ro.build.version.sdk': 29
+2021-07-16 14:04:23:059 [ADB] Getting device platform version
+2021-07-16 14:04:23:059 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell getprop ro.build.version.release'
+2021-07-16 14:04:23:104 [ADB] Current device property 'ro.build.version.release': 10
+2021-07-16 14:04:23:104 [ADB] Device API level: 29
+2021-07-16 14:04:23:104 [UiAutomator2] Relaxing hidden api policy
+2021-07-16 14:04:23:105 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2021-07-16 14:04:23:219 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece wait-for-device'
+2021-07-16 14:04:23:227 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell echo ping'
+2021-07-16 14:04:23:256 [AndroidDriver] Pushing settings apk to device...
+2021-07-16 14:04:23:257 [ADB] Getting install status for io.appium.settings
+2021-07-16 14:04:23:258 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell dumpsys package io.appium.settings'
+2021-07-16 14:04:23:353 [ADB] 'io.appium.settings' is installed
+2021-07-16 14:04:23:354 [ADB] Getting package info for 'io.appium.settings'
+2021-07-16 14:04:23:354 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell dumpsys package io.appium.settings'
+2021-07-16 14:04:23:420 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.3.0' >= '3.3.0')
+2021-07-16 14:04:23:420 [ADB] There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2021-07-16 14:04:23:421 [ADB] Getting IDs of all 'io.appium.settings' processes
+2021-07-16 14:04:23:421 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell 'pgrep --help; echo $?''
+2021-07-16 14:04:23:473 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:23:557 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2021-07-16 14:04:23:558 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell appops set io.appium.settings android:mock_location allow'
+2021-07-16 14:04:23:620 [Logcat] Starting logs capture with command: /Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece logcat -v threadtime
+2021-07-16 14:04:23:673 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 10002
+2021-07-16 14:04:23:673 [ADB] Forwarding system: 10002 to device: 6790
+2021-07-16 14:04:23:674 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece forward tcp:10002 tcp:6790'
+2021-07-16 14:04:23:687 [ADB] Getting install status for io.appium.uiautomator2.server
+2021-07-16 14:04:23:687 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell dumpsys package io.appium.uiautomator2.server'
+2021-07-16 14:04:23:748 [ADB] 'io.appium.uiautomator2.server' is installed
+2021-07-16 14:04:23:748 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2021-07-16 14:04:23:748 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell dumpsys package io.appium.uiautomator2.server'
+2021-07-16 14:04:23:794 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.21.1' >= '4.21.1')
+2021-07-16 14:04:23:795 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2021-07-16 14:04:23:795 [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.21.1.apk
+2021-07-16 14:04:23:797 [ADB] Using 'apksigner.jar' from '/Users/mitchxxx1/Library/Android/sdk/build-tools/31.0.0-rc5/lib/apksigner.jar'
+2021-07-16 14:04:23:797 [ADB] Starting apksigner: /Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/mitchxxx1/Library/Android/sdk/build-tools/31.0.0-rc5/lib/apksigner.jar verify --print-certs /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.21.1.apk
+2021-07-16 14:04:24:518 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2021-07-16 14:04:24:519 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2021-07-16 14:04:24:519 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2021-07-16 14:04:24:519 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2021-07-16 14:04:24:519 [ADB] 
+2021-07-16 14:04:24:519 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.21.1.apk'
+2021-07-16 14:04:24:519 [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.21.1.apk' is signed with the default certificate
+2021-07-16 14:04:24:520 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2021-07-16 14:04:24:520 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell dumpsys package io.appium.uiautomator2.server.test'
+2021-07-16 14:04:24:561 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2021-07-16 14:04:24:562 [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2021-07-16 14:04:24:562 [ADB] Starting apksigner: /Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/mitchxxx1/Library/Android/sdk/build-tools/31.0.0-rc5/lib/apksigner.jar verify --print-certs /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2021-07-16 14:04:25:156 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2021-07-16 14:04:25:156 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2021-07-16 14:04:25:156 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2021-07-16 14:04:25:157 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2021-07-16 14:04:25:157 [ADB] 
+2021-07-16 14:04:25:157 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2021-07-16 14:04:25:157 [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2021-07-16 14:04:25:157 [UiAutomator2] Server packages are not going to be (re)installed
+2021-07-16 14:04:25:160 [UiAutomator2] Waiting up to 30000ms for services to be available
+2021-07-16 14:04:25:160 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pm list instrumentation'
+2021-07-16 14:04:25:233 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2021-07-16 14:04:25:236 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2021-07-16 14:04:25:237 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2021-07-16 14:04:25:237 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2021-07-16 14:04:25:323 [ADB] Checking app cert for /Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+2021-07-16 14:04:25:324 [ADB] Starting apksigner: /Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/mitchxxx1/Library/Android/sdk/build-tools/31.0.0-rc5/lib/apksigner.jar verify --print-certs '/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk'
+2021-07-16 14:04:27:101 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2021-07-16 14:04:27:103 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2021-07-16 14:04:27:103 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2021-07-16 14:04:27:103 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2021-07-16 14:04:27:104 [ADB] 
+2021-07-16 14:04:27:104 [ADB] sha256 hash did match for 'Android.SauceLabs.Mobile.Sample.app.2.7.1.apk'
+2021-07-16 14:04:27:104 [ADB] '/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk' is signed with the default certificate
+2021-07-16 14:04:27:104 [ADB] Getting install status for com.swaglabsmobileapp
+2021-07-16 14:04:27:104 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell dumpsys package com.swaglabsmobileapp'
+2021-07-16 14:04:27:176 [ADB] 'com.swaglabsmobileapp' is installed
+2021-07-16 14:04:27:176 [ADB] Getting package info for 'com.swaglabsmobileapp'
+2021-07-16 14:04:27:176 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell dumpsys package com.swaglabsmobileapp'
+2021-07-16 14:04:27:236 [ADB] The version name of the installed 'com.swaglabsmobileapp' is greater or equal to the application version name ('2.7.1' >= '2.7.1')
+2021-07-16 14:04:27:237 [ADB] There is no need to install/upgrade '/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk'
+2021-07-16 14:04:27:237 [AndroidDriver] Performing fast reset on 'com.swaglabsmobileapp'
+2021-07-16 14:04:27:237 [ADB] Getting install status for com.swaglabsmobileapp
+2021-07-16 14:04:27:237 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell dumpsys package com.swaglabsmobileapp'
+2021-07-16 14:04:27:289 [ADB] 'com.swaglabsmobileapp' is installed
+2021-07-16 14:04:27:290 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell am force-stop com.swaglabsmobileapp'
+2021-07-16 14:04:27:379 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pm clear com.swaglabsmobileapp'
+2021-07-16 14:04:27:569 [AndroidDriver] Performed fast reset on the installed 'com.swaglabsmobileapp' application (stop and clear)
+2021-07-16 14:04:27:570 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2021-07-16 14:04:27:588 [UiAutomator2] No obsolete sessions have been detected (socket hang up)
+2021-07-16 14:04:27:588 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell am force-stop io.appium.uiautomator2.server.test'
+2021-07-16 14:04:27:683 [UiAutomator2] Starting UIAutomator2 server 4.21.1
+2021-07-16 14:04:27:684 [UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.21.1.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2021-07-16 14:04:27:684 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2021-07-16 14:04:27:684 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","280b09ac111c7ece","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2021-07-16 14:04:27:692 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-07-16 14:04:27:693 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10002/wd/hub/status] with no body
+2021-07-16 14:04:27:707 [WD Proxy] socket hang up
+2021-07-16 14:04:28:709 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-07-16 14:04:28:709 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10002/wd/hub/status] with no body
+2021-07-16 14:04:28:727 [WD Proxy] socket hang up
+2021-07-16 14:04:29:110 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2021-07-16 14:04:29:729 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-07-16 14:04:29:729 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10002/wd/hub/status] with no body
+2021-07-16 14:04:29:734 [WD Proxy] socket hang up
+2021-07-16 14:04:30:741 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-07-16 14:04:30:742 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10002/wd/hub/status] with no body
+2021-07-16 14:04:30:864 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2021-07-16 14:04:30:865 [UiAutomator2] The initialization of the instrumentation process took 3181ms
+2021-07-16 14:04:30:865 [WD Proxy] Matched '/session' to command name 'createSession'
+2021-07-16 14:04:30:866 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:10002/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11002,"udId":"emulator-5554","app":"/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"uiautomator2","deviceName":"Samsung S9","systemPort":10002},"platformName":"android","chromeDriverPort":11002,"udId":"emulator-5554","app":"/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"uiautomator2","deviceName":"280b09...
+2021-07-16 14:04:30:893 [WD Proxy] Got response with status 200: {"sessionId":"6f0c637b-b8d3-4357-bc2b-ea58e496f0fa","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11002,"udId":"emulator-5554","app":"/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"uiautomator2","deviceName":"Samsung S9","systemPort":10002},"platformName":"android","chromeDriverPort":11002,"udId":"emulator-5554","app":"/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmob...
+2021-07-16 14:04:30:893 [WD Proxy] Determined the downstream protocol as 'W3C'
+2021-07-16 14:04:30:902 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:10002/wd/hub/session/6f0c637b-b8d3-4357-bc2b-ea58e496f0fa/appium/device/info] with no body
+2021-07-16 14:04:30:962 [WD Proxy] Got response with status 200: {"sessionId":"6f0c637b-b8d3-4357-bc2b-ea58e496f0fa","value":{"androidId":"042c4b1a2991178b","apiVersion":"29","bluetooth":{"state":"ON"},"brand":"samsung","carrierName":"giffgaff","displayDensity":480,"locale":"en_GB","manufacturer":"samsung","model":"SM-G960F","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-63,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":null,"isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"10","realDisplaySize":"1080x2220","timeZone":"Europe/London"}}
+2021-07-16 14:04:30:963 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell dumpsys window'
+2021-07-16 14:04:31:053 [AndroidDriver] Screen already unlocked, doing nothing
+2021-07-16 14:04:31:053 [UiAutomator2] Starting 'com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivity and waiting for 'com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivity'
+2021-07-16 14:04:31:054 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell am start -W -n com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2021-07-16 14:04:32:627 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:10002/wd/hub/session/6f0c637b-b8d3-4357-bc2b-ea58e496f0fa/appium/device/pixel_ratio] with no body
+2021-07-16 14:04:32:718 [WD Proxy] Got response with status 200: {"sessionId":"6f0c637b-b8d3-4357-bc2b-ea58e496f0fa","value":3}
+2021-07-16 14:04:32:720 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2021-07-16 14:04:32:720 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:10002/wd/hub/session/6f0c637b-b8d3-4357-bc2b-ea58e496f0fa/appium/device/system_bars] with no body
+2021-07-16 14:04:32:778 [WD Proxy] Got response with status 200: {"sessionId":"6f0c637b-b8d3-4357-bc2b-ea58e496f0fa","value":{"statusBar":72}}
+2021-07-16 14:04:32:779 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2021-07-16 14:04:32:779 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:10002/wd/hub/session/6f0c637b-b8d3-4357-bc2b-ea58e496f0fa/window/current/size] with no body
+2021-07-16 14:04:32:824 [WD Proxy] Got response with status 200: {"sessionId":"6f0c637b-b8d3-4357-bc2b-ea58e496f0fa","value":{"height":2076,"width":1080}}
+2021-07-16 14:04:32:825 [Appium] New AndroidUiautomator2Driver session created successfully, session 442680f7-1fd7-46ed-9057-9a8785515f4e added to master session list
+2021-07-16 14:04:32:826 [BaseDriver] Event 'newSessionStarted' logged at 1626444272826 (15:04:32 GMT+0100 (British Summer Time))
+2021-07-16 14:04:32:827 [W3C (442680f7)] Cached the protocol value 'W3C' for the new session 442680f7-1fd7-46ed-9057-9a8785515f4e
+2021-07-16 14:04:32:827 [W3C (442680f7)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11002,"udId":"emulator-5554","app":"/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"uiautomator2","deviceName":"Samsung S9","systemPort":10002},"platformName":"android","chromeDriverPort":11002,"udId":"emulator-5554","app":"/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"uiautomator2","deviceName":"280b09ac111c7ece","sy...
+2021-07-16 14:04:32:828 [HTTP] <-- POST /wd/hub/session 200 9996 ms - 1383
+2021-07-16 14:04:32:828 [HTTP] 
+2021-07-16 14:04:32:960 [Instrumentation] INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+2021-07-16 14:04:32:960 [Instrumentation] INSTRUMENTATION_CODE: 0
+2021-07-16 14:04:33:012 [Instrumentation] The process has exited with code 0
+2021-07-16 14:04:33:119 [HTTP] --> POST /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/appium/start_recording_screen
+2021-07-16 14:04:33:119 [HTTP] {}
+2021-07-16 14:04:33:124 [W3C (442680f7)] Calling AppiumDriver.startRecordingScreen() with args: [null,"442680f7-1fd7-46ed-9057-9a8785515f4e"]
+2021-07-16 14:04:33:125 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:33:125 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:33:334 [AndroidDriver] Screen recording has not been previously started by Appium. There is nothing to stop
+2021-07-16 14:04:33:334 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:33:334 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:33:639 [ADB] Building screenrecord process with the command line: adb -P 5037 -s 280b09ac111c7ece shell screenrecord --time-limit 180 /sdcard/69fed2aa.mp4
+2021-07-16 14:04:33:646 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell "[ -e '/sdcard/69fed2aa.mp4' ] && echo __PASS__"'
+2021-07-16 14:04:33:999 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell "[ -e '/sdcard/69fed2aa.mp4' ] && echo __PASS__"'
+2021-07-16 14:04:34:335 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell "[ -e '/sdcard/69fed2aa.mp4' ] && echo __PASS__"'
+2021-07-16 14:04:34:366 [W3C (442680f7)] Responding to client with driver.startRecordingScreen() result: ""
+2021-07-16 14:04:34:367 [HTTP] <-- POST /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/appium/start_recording_screen 200 1248 ms - 12
+2021-07-16 14:04:34:367 [HTTP] 
+2021-07-16 14:04:34:506 [HTTP] --> GET /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/context
+2021-07-16 14:04:34:506 [HTTP] {}
+2021-07-16 14:04:34:507 [W3C (442680f7)] Calling AppiumDriver.getCurrentContext() with args: ["442680f7-1fd7-46ed-9057-9a8785515f4e"]
+2021-07-16 14:04:34:508 [W3C (442680f7)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-16 14:04:34:508 [HTTP] <-- GET /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/context 200 2 ms - 22
+2021-07-16 14:04:34:509 [HTTP] 
+2021-07-16 14:04:34:514 [HTTP] --> POST /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/element
+2021-07-16 14:04:34:514 [HTTP] {"using":"accessibility id","value":"test-Username"}
+2021-07-16 14:04:34:515 [W3C (442680f7)] Calling AppiumDriver.findElement() with args: ["accessibility id","test-Username","442680f7-1fd7-46ed-9057-9a8785515f4e"]
+2021-07-16 14:04:34:516 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2021-07-16 14:04:34:516 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-16 14:04:34:537 [W3C (442680f7)] Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+2021-07-16 14:04:34:537 [W3C (442680f7)]     at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+2021-07-16 14:04:34:538 [W3C (442680f7)]     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:04:34:538 [HTTP] <-- POST /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/element 500 24 ms - 827
+2021-07-16 14:04:34:538 [HTTP] 
+2021-07-16 14:04:34:548 [HTTP] --> GET /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/screenshot
+2021-07-16 14:04:34:548 [HTTP] {}
+2021-07-16 14:04:34:549 [W3C (442680f7)] Calling AppiumDriver.getScreenshot() with args: ["442680f7-1fd7-46ed-9057-9a8785515f4e"]
+2021-07-16 14:04:34:550 [W3C (442680f7)] Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+2021-07-16 14:04:34:550 [W3C (442680f7)]     at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+2021-07-16 14:04:34:550 [W3C (442680f7)]     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:04:34:551 [HTTP] <-- GET /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/screenshot 500 2 ms - 831
+2021-07-16 14:04:34:551 [HTTP] 
+2021-07-16 14:04:34:563 [HTTP] --> POST /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/appium/start_recording_screen
+2021-07-16 14:04:34:563 [HTTP] {}
+2021-07-16 14:04:34:563 [W3C (442680f7)] Calling AppiumDriver.startRecordingScreen() with args: [null,"442680f7-1fd7-46ed-9057-9a8785515f4e"]
+2021-07-16 14:04:34:563 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:34:564 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:34:636 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell kill -2 27019'
+2021-07-16 14:04:34:658 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:34:659 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:35:242 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:35:243 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:35:821 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:35:822 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:36:411 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:36:412 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:37:013 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:37:014 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:37:609 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:37:610 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:38:257 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:38:258 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:38:882 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:38:882 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:39:462 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:39:462 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:40:077 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:40:078 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:40:660 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:40:661 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:41:256 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:41:256 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:41:837 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:41:838 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:42:425 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:42:426 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:43:067 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:43:068 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:43:645 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:43:646 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:44:298 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:44:298 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:44:369 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece pull /sdcard/69fed2aa.mp4 /var/folders/86/d01940xs2nzd56l4gs1jxhwr0000gp/T/2021616-91047-1wdo4wg.zw4p/69fed2aa.mp4'
+2021-07-16 14:04:44:415 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell rm -rf /sdcard/69fed2aa.mp4'
+2021-07-16 14:04:44:453 [AndroidDriver] The size of the resulting screen recording is 331.32 KB
+2021-07-16 14:04:44:463 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:44:463 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:44:587 [ADB] Building screenrecord process with the command line: adb -P 5037 -s 280b09ac111c7ece shell screenrecord --time-limit 180 /sdcard/b3f8f078.mp4
+2021-07-16 14:04:44:594 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell "[ -e '/sdcard/b3f8f078.mp4' ] && echo __PASS__"'
+2021-07-16 14:04:44:929 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell "[ -e '/sdcard/b3f8f078.mp4' ] && echo __PASS__"'
+2021-07-16 14:04:44:957 [W3C (442680f7)] Responding to client with driver.startRecordingScreen() result: "AAAAGGZ0eXBtcDQyAAAAAGlzb21tcDQyAAAAAW1kYXQAAAAAAAUpwgADeJ1luEiIkGoABMhwADUcAAQB7SA7GrULLQIsF0CQSxGfGk2ibRNom01k2iZsC6Qdy3/y7tl1j/NrWF1//azabXP8uksSkR6FAI96fn/+Ej8DpDlhSw6Mt/5FLtn7WhLMLpf/8u3/zaLTNjH9BIILpf/bb9f47LEWJcciNprUxBJnxqPsjraTDwyHUS406QJVDrPTpAPyANDgnOmCCgMMdDc6QWW57UVtMDMcgTSAkWwp+f+3bb3hNQoLH/TT0/UJqBLkAbL/9P+iJRDyobRM+iMcVp1DoUOiNXk2jrLp1EaNJh8yEy1aQNRIApQB2gwxz+/+/FEEUUEFPhZC4vi6/QmoDEgwas9P//eaOKuqHGtFQuL3VVde0eoA+vCHCTWv1/aYDqEPCAmoD8QVD//rePUCToHEn//zpgbIDhF49QWgOEf/tt50wVg0B+tQkTqo6YfDLUdnUIFUVCagbwSR/7fbbvEYUABpRjEYfAKA5jtqJSCI7zqryabUScu4jo8lElcIQ4A1SEdTGwK6mzPSgDCOZmgEuvoZvyKVc9TGJlmwjZ2vrtwXkD5gZZU1D/0MoxsyWfwWcAA97Y8JP0x+fYM7+QXvEL/IIIa5hyCGucA1Kxh6DiFTrOTvh5JufcfALYrH8BwTjhUtkjxMPDyEgPLCb4mHf6gkQFAQT0T0Vv0QOiB0LeUSwySABeKlh+TLmO2/+wAjvon4h7/MGqht/gRkRTr7Ybqm8Bko9eSvj3bs5q4sgM6kpPABE/8r4E5ngpDEgucwwqx5U+Ijsh7oEQ29ghFnu2rldKS9CDiHlCL9XnFn+JMA3CTMT0fTrG+OHR1zZsRM3qKGEsSD+0v0B/i5NOiYwY0f2A2XiYPfITPtYG7CdWJVHCpSOO+otaAZPgBEEW+4qzm8sEszkOlRE3eBHfD+S80P6cFaj+0JwCjcOOsMqPxJoQQlJUlC2WodjCEX...
+2021-07-16 14:04:44:962 [HTTP] <-- POST /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/appium/start_recording_screen 200 10398 ms - 452380
+2021-07-16 14:04:44:962 [HTTP] 
+2021-07-16 14:04:44:991 [HTTP] --> GET /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/context
+2021-07-16 14:04:44:991 [HTTP] {}
+2021-07-16 14:04:44:992 [W3C (442680f7)] Calling AppiumDriver.getCurrentContext() with args: ["442680f7-1fd7-46ed-9057-9a8785515f4e"]
+2021-07-16 14:04:44:992 [W3C (442680f7)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-16 14:04:44:993 [HTTP] <-- GET /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/context 200 2 ms - 22
+2021-07-16 14:04:44:993 [HTTP] 
+2021-07-16 14:04:44:996 [HTTP] --> POST /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/element
+2021-07-16 14:04:44:996 [HTTP] {"using":"accessibility id","value":"test-Username"}
+2021-07-16 14:04:44:997 [W3C (442680f7)] Calling AppiumDriver.findElement() with args: ["accessibility id","test-Username","442680f7-1fd7-46ed-9057-9a8785515f4e"]
+2021-07-16 14:04:44:997 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2021-07-16 14:04:44:997 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-16 14:04:44:998 [W3C (442680f7)] Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+2021-07-16 14:04:44:998 [W3C (442680f7)]     at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+2021-07-16 14:04:44:998 [W3C (442680f7)]     at runMicrotasks (<anonymous>)
+2021-07-16 14:04:44:998 [W3C (442680f7)]     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:04:44:999 [HTTP] <-- POST /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/element 500 2 ms - 863
+2021-07-16 14:04:44:999 [HTTP] 
+2021-07-16 14:04:45:004 [HTTP] --> GET /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/screenshot
+2021-07-16 14:04:45:004 [HTTP] {}
+2021-07-16 14:04:45:005 [W3C (442680f7)] Calling AppiumDriver.getScreenshot() with args: ["442680f7-1fd7-46ed-9057-9a8785515f4e"]
+2021-07-16 14:04:45:005 [W3C (442680f7)] Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+2021-07-16 14:04:45:005 [W3C (442680f7)]     at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+2021-07-16 14:04:45:005 [W3C (442680f7)]     at runMicrotasks (<anonymous>)
+2021-07-16 14:04:45:006 [W3C (442680f7)]     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:04:45:006 [HTTP] <-- GET /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/screenshot 500 2 ms - 867
+2021-07-16 14:04:45:006 [HTTP] 
+2021-07-16 14:04:45:014 [HTTP] --> POST /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/appium/start_recording_screen
+2021-07-16 14:04:45:015 [HTTP] {}
+2021-07-16 14:04:45:015 [W3C (442680f7)] Calling AppiumDriver.startRecordingScreen() with args: [null,"442680f7-1fd7-46ed-9057-9a8785515f4e"]
+2021-07-16 14:04:45:015 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:45:016 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:45:092 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell kill -2 27824'
+2021-07-16 14:04:45:113 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:45:113 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:45:711 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:45:712 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:46:311 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:46:312 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:46:950 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:46:950 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:47:538 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:47:539 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:48:156 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:48:156 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:48:775 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:48:776 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:49:384 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:49:384 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:50:019 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:50:020 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:50:743 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:50:744 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:51:619 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:51:619 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:52:196 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:52:197 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:52:785 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:52:785 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:53:371 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:53:372 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:53:972 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:53:973 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:54:603 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:54:604 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:55:195 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:55:196 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:55:305 [AndroidDriver] Unable to stop the background screen recording: Condition unmet after 10191 ms. Timing out.
+2021-07-16 14:04:55:305 [AndroidDriver] The resulting video might be corrupted
+2021-07-16 14:04:55:307 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece pull /sdcard/b3f8f078.mp4 /var/folders/86/d01940xs2nzd56l4gs1jxhwr0000gp/T/2021616-91047-kc7yso.gc6n/b3f8f078.mp4'
+2021-07-16 14:04:55:345 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell rm -rf /sdcard/b3f8f078.mp4'
+2021-07-16 14:04:55:388 [AndroidDriver] The size of the resulting screen recording is 331.36 KB
+2021-07-16 14:04:55:397 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:55:398 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:55:476 [ADB] Building screenrecord process with the command line: adb -P 5037 -s 280b09ac111c7ece shell screenrecord --time-limit 180 /sdcard/68368287.mp4
+2021-07-16 14:04:55:483 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell "[ -e '/sdcard/68368287.mp4' ] && echo __PASS__"'
+2021-07-16 14:04:55:845 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell "[ -e '/sdcard/68368287.mp4' ] && echo __PASS__"'
+2021-07-16 14:04:55:870 [W3C (442680f7)] Responding to client with driver.startRecordingScreen() result: "AAAAGGZ0eXBtcDQyAAAAAGlzb21tcDQyAAAAAW1kYXQAAAAAAAUqAwADeSRluEiIkGoABMhwADUcAAQB7SA7GrULLQIsF0CQSxGfGk2ibRNom01k2iZsC6Qdy3/y7tl1j/NrWF1//azabXP8uksSkR6FAI96fn/+Ej8DpDlhSw6Mt/5FLtn7WhLMLpf/8u3/zaLTNjH9BIILpf/bb9f47LEWJcciNprUxBJnxqPsjraTDwyHUS406QJVDrPTpAPyANDgnOmCCgMMdDc6QWW57UVtMDMcgTSAkWwp+f+3bb3hNQoLH/TT0/UJqBLkAbL/9P+iJRDyobRM+iMcVp1DoUOiNXk2jrLp1EaNJh8yEy1aQNRIApQB2gwxz+/+/FEEUUEFPhZC4vi6/QmoDEgwas9P//eaOKuqHGtFQuL3VVde0eoA+vCHCTWv1/aYDqEPCAmoD8QVD//rePUCToHEn//zpgbIDhF49QWgOEf/tt50wVg0B+tQkTqo6YfDLUdnUIFUVCagbwSR/7fbbvEYUABpRjEYfAKA5jtqJSCI7zqryabUScu4jo8lElcIQ4A1SEdTGwK6mzPSgDCOZmgEuvoZvyKVc9TGJlmwjZ2vrtwXkD5gZZU1D/0MoxsyWfwWcAA97Y8JP0x+fYM7+QXvEL/IIIa5hyCGucA1Kxh6DiFTrOTvh5JufcfALYrH8BwTjhUtkjxMPDyEgPLCb4mHf6gkQFAQT0T0Vv0QOiB0LeUSwySABeKlh+TLmO2/+wAjvon4h7/MGqht/gRkRTr7Ybqm8Bko9eSvj3bs5q4sgM6kpPABE/8r4E5ngpDEgucwwqx5U+Ijsh7oEQ29ghFnu2rldKS9CDiHlCL9XnFn+JMA3CTMT0fTrG+OHR1zZsRM3qKGEsSD+0v0B/i5NOiYwY0f2A2XiYPfITPtYG7CdWJVHCpSOO+otaAZPgBEEW+4qzm8sEszkOlRE3eBHfD+S80P6cFaj+0JwCjcOOsMqPxJoQQlJUlC2WodjCEX...
+2021-07-16 14:04:55:875 [HTTP] <-- POST /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/appium/start_recording_screen 200 10861 ms - 452428
+2021-07-16 14:04:55:876 [HTTP] 
+2021-07-16 14:04:55:914 [HTTP] --> GET /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/context
+2021-07-16 14:04:55:915 [HTTP] {}
+2021-07-16 14:04:55:915 [W3C (442680f7)] Calling AppiumDriver.getCurrentContext() with args: ["442680f7-1fd7-46ed-9057-9a8785515f4e"]
+2021-07-16 14:04:55:916 [W3C (442680f7)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-16 14:04:55:916 [HTTP] <-- GET /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/context 200 2 ms - 22
+2021-07-16 14:04:55:917 [HTTP] 
+2021-07-16 14:04:55:921 [HTTP] --> POST /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/element
+2021-07-16 14:04:55:921 [HTTP] {"using":"accessibility id","value":"test-Username"}
+2021-07-16 14:04:55:921 [W3C (442680f7)] Calling AppiumDriver.findElement() with args: ["accessibility id","test-Username","442680f7-1fd7-46ed-9057-9a8785515f4e"]
+2021-07-16 14:04:55:922 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2021-07-16 14:04:55:922 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-16 14:04:55:923 [W3C (442680f7)] Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+2021-07-16 14:04:55:923 [W3C (442680f7)]     at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+2021-07-16 14:04:55:923 [W3C (442680f7)]     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:04:55:923 [HTTP] <-- POST /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/element 500 2 ms - 827
+2021-07-16 14:04:55:923 [HTTP] 
+2021-07-16 14:04:55:928 [HTTP] --> GET /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/screenshot
+2021-07-16 14:04:55:928 [HTTP] {}
+2021-07-16 14:04:55:928 [W3C (442680f7)] Calling AppiumDriver.getScreenshot() with args: ["442680f7-1fd7-46ed-9057-9a8785515f4e"]
+2021-07-16 14:04:55:929 [W3C (442680f7)] Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+2021-07-16 14:04:55:929 [W3C (442680f7)]     at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+2021-07-16 14:04:55:929 [W3C (442680f7)]     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:04:55:932 [HTTP] <-- GET /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e/screenshot 500 2 ms - 831
+2021-07-16 14:04:55:933 [HTTP] 
+2021-07-16 14:04:55:937 [HTTP] --> DELETE /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e
+2021-07-16 14:04:55:937 [HTTP] {}
+2021-07-16 14:04:55:937 [W3C (442680f7)] Calling AppiumDriver.deleteSession() with args: ["442680f7-1fd7-46ed-9057-9a8785515f4e"]
+2021-07-16 14:04:55:937 [BaseDriver] Event 'quitSessionRequested' logged at 1626444295937 (15:04:55 GMT+0100 (British Summer Time))
+2021-07-16 14:04:55:938 [Appium] Removing session 442680f7-1fd7-46ed-9057-9a8785515f4e from our master session list
+2021-07-16 14:04:55:938 [UiAutomator2] Deleting UiAutomator2 session
+2021-07-16 14:04:55:939 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:55:939 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:56:016 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell kill -2 28242'
+2021-07-16 14:04:56:039 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:56:039 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:56:617 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:56:618 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:57:243 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:57:244 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:57:860 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:57:861 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:58:448 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:58:449 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:59:029 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:59:029 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:59:638 [ADB] Getting IDs of all 'screenrecord' processes
+2021-07-16 14:04:59:639 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2021-07-16 14:04:59:779 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece pull /sdcard/68368287.mp4 /var/folders/86/d01940xs2nzd56l4gs1jxhwr0000gp/T/2021616-91047-wa72qf.ssjyd/68368287.mp4'
+2021-07-16 14:04:59:813 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell rm -rf /sdcard/68368287.mp4'
+2021-07-16 14:04:59:844 [AndroidDriver] The size of the resulting screen recording is 223.01 KB
+2021-07-16 14:04:59:852 [UiAutomator2] Deleting UiAutomator2 server session
+2021-07-16 14:04:59:853 [UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+2021-07-16 14:04:59:853 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell am force-stop com.swaglabsmobileapp'
+2021-07-16 14:04:59:981 [Logcat] Stopping logcat capture
+2021-07-16 14:04:59:983 [ADB] Removing forwarded port socket connection: 10002 
+2021-07-16 14:04:59:983 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece forward --remove tcp:10002'
+2021-07-16 14:04:59:992 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2021-07-16 14:04:59:992 [ADB] Running '/Users/mitchxxx1/Library/Android/sdk/platform-tools/adb -P 5037 -s 280b09ac111c7ece shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2021-07-16 14:05:00:099 [BaseDriver] Event 'quitSessionFinished' logged at 1626444300099 (15:05:00 GMT+0100 (British Summer Time))
+2021-07-16 14:05:00:100 [W3C (442680f7)] Received response: null
+2021-07-16 14:05:00:100 [W3C (442680f7)] But deleting session, so not returning
+2021-07-16 14:05:00:100 [W3C (442680f7)] Responding to client with driver.deleteSession() result: null
+2021-07-16 14:05:00:101 [HTTP] <-- DELETE /wd/hub/session/442680f7-1fd7-46ed-9057-9a8785515f4e 200 4163 ms - 14
+2021-07-16 14:05:00:101 [HTTP] 

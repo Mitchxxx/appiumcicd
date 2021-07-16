@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+  <test name="Nexus 5X">
+    <parameter name = "platformName" value= "Android" />
+    <parameter name = "udId" value= "emulator-5554" />
+    <parameter name = "deviceName" value= "Nexus 5X API 30" />
+    <parameter name = "systemPort" value= "10000" />
+    <parameter name = "chromeDriverPort" value= "11000" />
+    <classes>
+      <class name="com.qa.runners.MyNexus5XTestNGRunnerTest"/>
+    </classes>
+  </test>
+  <test name="Samsung S9">
+    <parameter name = "platformName" value= "Android" />
+    <parameter name = "udId" value= "280b09ac111c7ece" />
+    <parameter name = "deviceName" value= "280b09ac111c7ece" />
+    <parameter name = "systemPort" value= "10001" />
+    <parameter name = "chromeDriverPort" value= "11001" />
+    <classes>
+      <class name="com.qa.runners.MySamsungS9TestNGRunnerTest"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

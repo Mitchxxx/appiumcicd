@@ -1,0 +1,217 @@
+[INFO ] 2021-07-16 14:10:26.729 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 14:10:28.160 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 14:10:28.184 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 14:10:28.202 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 14:10:28.203 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 14:10:28.219 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 14:10:37.338 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 14:12:52.595 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 14:12:53.355 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 14:12:53.380 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 14:12:53.396 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 14:12:53.397 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 14:12:53.412 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 14:13:00.146 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 14:13:05.972 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid user name.mp4
+[INFO ] 2021-07-16 14:13:10.250 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid password.mp4
+[INFO ] 2021-07-16 14:13:15.116 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with valid username and password.mp4
+[INFO ] 2021-07-16 14:24:05.407 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 14:24:06.377 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 14:24:06.408 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 14:24:06.409 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 14:24:06.410 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 14:24:06.427 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 14:24:06.427 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 14:24:06.428 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 14:24:06.428 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 14:24:06.449 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 14:24:06.449 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 14:25:44.588 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 14:26:01.660 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid user name.mp4
+[INFO ] 2021-07-16 14:26:16.144 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid password.mp4
+[INFO ] 2021-07-16 14:26:33.986 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with valid username and password.mp4
+[INFO ] 2021-07-16 14:29:39.460 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 14:29:40.125 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 14:29:40.155 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 14:29:40.157 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 14:29:40.159 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 14:29:40.173 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 14:29:40.173 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 14:29:40.174 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 14:29:40.174 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 14:29:40.192 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 14:29:40.192 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 14:29:51.359 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 14:31:59.051 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 14:31:59.472 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 14:31:59.498 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 14:31:59.515 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 14:31:59.516 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 14:31:59.532 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 14:31:59.717 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 14:31:59.718 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 14:31:59.718 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 14:31:59.719 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 14:32:05.387 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 14:32:05.387 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 14:32:38.566 VideoManager:34 - video path: Android_Samsung S9/Videos/Login with valid username and password.mp4
+[INFO ] 2021-07-16 14:34:26.874 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 14:34:27.679 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 14:34:27.702 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 14:34:27.718 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 14:34:27.718 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 14:34:27.733 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 14:34:37.159 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 14:34:52.850 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid user name.mp4
+[INFO ] 2021-07-16 14:34:58.282 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid password.mp4
+[INFO ] 2021-07-16 14:35:04.241 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with valid username and password.mp4
+[INFO ] 2021-07-16 14:36:00.224 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 14:36:00.973 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 14:36:00.993 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 14:36:01.009 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 14:36:01.010 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 14:36:01.024 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 14:36:10.623 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 14:36:26.743 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid user name.mp4
+[INFO ] 2021-07-16 14:36:31.989 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid password.mp4
+[INFO ] 2021-07-16 14:36:37.758 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with valid username and password.mp4
+[INFO ] 2021-07-16 14:55:41.575 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 14:55:42.246 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 14:55:42.266 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 14:55:42.281 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 14:55:42.282 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 14:55:42.299 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 14:55:42.313 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 14:55:42.314 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 14:55:42.315 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 14:55:42.315 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 14:55:52.642 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 15:02:41.174 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 15:02:41.591 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:02:41.622 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:02:41.638 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 15:02:41.640 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:02:41.659 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:02:41.853 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:02:41.854 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:02:41.854 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:02:41.855 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:04:21.777 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 15:04:22.334 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:04:22.360 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:04:22.377 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 15:04:22.379 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:04:22.394 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:04:22.452 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:04:22.453 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:04:22.453 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:04:22.454 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:04:32.870 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 15:08:39.872 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 15:08:40.221 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:08:40.254 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:08:40.272 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 15:08:40.273 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:08:40.296 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:08:40.878 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:08:40.879 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:08:40.879 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:08:40.880 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:08:46.217 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 15:08:46.217 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 15:08:51.446 VideoManager:34 - video path: Android_280b09ac111c7ece/Videos/Login with valid username and password.mp4
+[INFO ] 2021-07-16 15:17:47.161 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 15:17:47.522 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:17:47.551 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:17:47.567 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 15:17:47.568 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:17:47.582 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:17:47.823 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:17:47.824 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:17:47.824 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:17:47.825 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:17:57.885 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 15:20:11.088 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 15:20:11.848 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:20:11.870 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:20:11.885 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 15:20:11.886 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:20:11.901 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:31:33.153 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 15:31:34.555 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:31:34.576 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:31:34.593 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 15:31:34.594 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:31:34.608 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:31:41.380 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 15:31:46.777 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid user name.mp4
+[INFO ] 2021-07-16 15:31:51.018 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid password.mp4
+[INFO ] 2021-07-16 15:31:55.919 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with valid username and password.mp4
+[INFO ] 2021-07-16 15:35:11.008 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 15:35:11.621 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:35:11.646 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:35:11.661 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 15:35:11.663 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:35:11.681 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:35:11.681 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:35:11.682 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:35:11.682 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:35:11.683 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:35:17.895 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 15:35:17.895 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 15:35:26.609 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with valid username and password.mp4
+[INFO ] 2021-07-16 15:41:57.384 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 15:41:57.703 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:41:57.729 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:41:57.746 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 15:41:57.748 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:41:57.750 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:41:58.054 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:41:58.054 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:41:58.055 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:41:58.055 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:42:04.903 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 15:42:07.720 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 15:42:09.876 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid user name.mp4
+[INFO ] 2021-07-16 15:42:14.102 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid password.mp4
+[INFO ] 2021-07-16 15:42:19.523 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with valid username and password.mp4
+[INFO ] 2021-07-16 15:42:24.552 VideoManager:34 - video path: Android_280b09ac111c7ece/Videos/Login with Invalid user name.mp4
+[INFO ] 2021-07-16 15:42:28.632 VideoManager:34 - video path: Android_280b09ac111c7ece/Videos/Login with Invalid password.mp4
+[INFO ] 2021-07-16 15:42:34.901 VideoManager:34 - video path: Android_280b09ac111c7ece/Videos/Login with valid username and password.mp4
+[INFO ] 2021-07-16 15:44:53.788 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 15:44:54.415 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:44:54.444 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:44:54.465 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:44:54.466 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 15:44:54.466 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:44:54.466 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 15:44:54.467 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:44:54.467 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:44:54.470 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:44:54.470 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:45:01.546 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 15:45:03.898 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 15:45:06.982 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid user name.mp4
+[INFO ] 2021-07-16 15:45:10.752 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid password.mp4
+[INFO ] 2021-07-16 15:45:15.658 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with valid username and password.mp4
+[INFO ] 2021-07-16 15:45:20.387 VideoManager:34 - video path: Android_280b09ac111c7ece/Videos/Login with Invalid user name.mp4
+[INFO ] 2021-07-16 15:45:24.942 VideoManager:34 - video path: Android_280b09ac111c7ece/Videos/Login with Invalid password.mp4
+[INFO ] 2021-07-16 15:45:31.510 VideoManager:34 - video path: Android_280b09ac111c7ece/Videos/Login with valid username and password.mp4
+[INFO ] 2021-07-16 15:56:45.729 ServerManager:22 - Starting Appium Server
+[INFO ] 2021-07-16 15:56:46.119 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:56:46.151 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:56:46.166 PropertyManager:16 - loading config properties
+[INFO ] 2021-07-16 15:56:46.167 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:56:46.169 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:56:46.402 ServerManager:32 - Appium server started
+[INFO ] 2021-07-16 15:56:46.402 DriverManager:29 - initializing appium driver
+[INFO ] 2021-07-16 15:56:46.403 CapabilitiesManager:21 - Getting the Capabilities
+[INFO ] 2021-07-16 15:56:46.404 CapabilitiesManager:40 - appUrl is/Users/mitchxxx1/Automation Testing/Mobile AutomationTesting/AppiumCucumberBdd-TestNg/src/test/resources/Apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-07-16 15:56:53.124 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 15:56:56.120 DriverManager:41 - Driver is initialized
+[INFO ] 2021-07-16 15:56:58.547 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid user name.mp4
+[INFO ] 2021-07-16 15:57:02.297 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with Invalid password.mp4
+[INFO ] 2021-07-16 15:57:07.684 VideoManager:34 - video path: Android_Nexus 5X API 30/Videos/Login with valid username and password.mp4
+[INFO ] 2021-07-16 15:57:12.926 VideoManager:34 - video path: Android_280b09ac111c7ece/Videos/Login with Invalid user name.mp4
+[INFO ] 2021-07-16 15:57:17.580 VideoManager:34 - video path: Android_280b09ac111c7ece/Videos/Login with Invalid password.mp4
+[INFO ] 2021-07-16 15:57:23.226 VideoManager:34 - video path: Android_280b09ac111c7ece/Videos/Login with valid username and password.mp4
